@@ -1,6 +1,4 @@
-﻿using FluentValidation.Results;
-
-namespace BestFootForwardApi.Application.Common.Exceptions;
+﻿namespace ApiScaffold.Application.Common.Exceptions;
 
 public class ValidationException : Exception
 {

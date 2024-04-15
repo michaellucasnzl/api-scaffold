@@ -1,7 +1,4 @@
-﻿using FluentValidation;
-using ValidationException = BestFootForwardApi.Application.Common.Exceptions.ValidationException;
-
-namespace ApiScaffold.Application.Common.Behaviours;
+﻿namespace ApiScaffold.Application.Common.Behaviours;
 
 public class ValidationBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
      where TRequest : notnull
