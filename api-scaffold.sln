@@ -3,6 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiScaffold.Web", "src\ApiScaffold.Web\ApiScaffold.Web.csproj", "{C91878EE-20BE-4754-8B47-EB708FA9EEF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{222B2131-A2D3-4248-855C-90F49CD1BA91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F5911EE7-C9DD-46A3-88B2-163BCE28C411}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiScaffold.Web.Tests", "tests\ApiScaffold.Web.Tests\ApiScaffold.Web.Tests.csproj", "{9011730D-9B22-4EFC-8C83-D4BC15F98C75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiScaffold.Application", "src\ApiScaffold.Application\ApiScaffold.Application.csproj", "{EBC62E22-9B1C-4531-8065-91600CE89A60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiScaffold.Domain", "src\ApiScaffold.Domain\ApiScaffold.Domain.csproj", "{6D037B6C-10D6-447A-AEC0-1BCFC2D7B0E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiScaffold.Infrastructure", "src\ApiScaffold.Infrastructure\ApiScaffold.Infrastructure.csproj", "{3AD5D2EF-AB14-4D50-8198-A10CFD070A27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +24,34 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C91878EE-20BE-4754-8B47-EB708FA9EEF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C91878EE-20BE-4754-8B47-EB708FA9EEF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C91878EE-20BE-4754-8B47-EB708FA9EEF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C91878EE-20BE-4754-8B47-EB708FA9EEF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9011730D-9B22-4EFC-8C83-D4BC15F98C75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9011730D-9B22-4EFC-8C83-D4BC15F98C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9011730D-9B22-4EFC-8C83-D4BC15F98C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9011730D-9B22-4EFC-8C83-D4BC15F98C75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBC62E22-9B1C-4531-8065-91600CE89A60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC62E22-9B1C-4531-8065-91600CE89A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC62E22-9B1C-4531-8065-91600CE89A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBC62E22-9B1C-4531-8065-91600CE89A60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D037B6C-10D6-447A-AEC0-1BCFC2D7B0E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D037B6C-10D6-447A-AEC0-1BCFC2D7B0E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D037B6C-10D6-447A-AEC0-1BCFC2D7B0E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D037B6C-10D6-447A-AEC0-1BCFC2D7B0E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AD5D2EF-AB14-4D50-8198-A10CFD070A27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD5D2EF-AB14-4D50-8198-A10CFD070A27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD5D2EF-AB14-4D50-8198-A10CFD070A27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD5D2EF-AB14-4D50-8198-A10CFD070A27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C91878EE-20BE-4754-8B47-EB708FA9EEF8} = {222B2131-A2D3-4248-855C-90F49CD1BA91}
+		{9011730D-9B22-4EFC-8C83-D4BC15F98C75} = {F5911EE7-C9DD-46A3-88B2-163BCE28C411}
+		{EBC62E22-9B1C-4531-8065-91600CE89A60} = {222B2131-A2D3-4248-855C-90F49CD1BA91}
+		{6D037B6C-10D6-447A-AEC0-1BCFC2D7B0E6} = {222B2131-A2D3-4248-855C-90F49CD1BA91}
+		{3AD5D2EF-AB14-4D50-8198-A10CFD070A27} = {222B2131-A2D3-4248-855C-90F49CD1BA91}
 	EndGlobalSection
 EndGlobal
