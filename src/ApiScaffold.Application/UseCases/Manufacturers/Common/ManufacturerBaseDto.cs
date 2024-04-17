@@ -1,6 +1,4 @@
 
-using ApiScaffold.Domain.Entities;
-
 namespace ApiScaffold.Application.UseCases.Manufacturers.Common;
 
 public class ManufacturerBaseDto
